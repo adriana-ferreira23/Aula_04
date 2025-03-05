@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffeef7;
+            color: #6d415c;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff85a2;
+        }
+
+        section {
+            background-color: #fffaf3;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+        }
+
+        h2, h3 {
+            color: #ffaec0;
+        }
+
+        p {
+            text-align: center;
+            background-color: #fff0db;
+            color: #6d415c;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0 auto 20px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        a {
+            color: #ff85a2;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            background-color: #ffe0e9;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            background-color: #ffb3c6;
+        }
+
+        .projetos-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .projeto {
+            background-color: #fffaf3;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            text-align: center;
+        }
+
+        .links {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá! Sou a Adriana!</h1>
+
+    <p>Bem-vindos ao meu espaço pessoal! Aqui partilho um pouco sobre mim e os meus interesses, assim como alguns dos meus projetos!</p>
+    
+    <section>
+        <h2>Sobre Mim</h2>
+        <p>Chamo-me Adriana Ferreira, tenho 19 anos e sou apaixonada por jogos e interesso-me pela área de Game Design.</p>
+        <img src="Adriana.webp" alt="Foto Adriana">
+    </section>
+
+    <section>
+        <h2>Projetos</h2>
+        <p>Estes são alguns dos projetos universitários que já trabalhei!</p>
+        <div class="projetos-container">
+            <div class="projeto">
+                <h3>Tsukuyomi</h3>
+                <p>Jogo narrativo sem palavras, onde o deus da lua japonês nos pede para salvar a vila dos ataques dos demônios, com um sistema de waves, em que cada wave tem uma fase da lua diferente.</p>
+                <p>Função: Game Designer, Character e UI Artist.</p>
+                <img src="Tsukuyomi.webp" alt="Foto gameplay Tsukuyomi">
+                <div class="links">
+                    <a href="#">OSD</a>
+                    <a href="#">Jogue a demo!</a>
+                </div>
+            </div>
+
+            <div class="projeto">
+                <h3>CyberEngineer</h3>
+                <p>Um jogo 2D desenvolvido num semestre. ETC....</p>
+                <p>Função: Game Designer.</p>
+                <img src="CyberEngineer.webp" alt="Foto gameplay CyberEngineer">
+                <div class="links">
+                    <a href="#">GDD</a>
+                </div>
+            </div>
+
+            <div class="projeto">
+                <h3>Lily's ThriftStore</h3>
+                <p>Simulador cozy de uma loja de segunda mão, com mecânicas de compra, venda e renovação de roupas.</p>
+                <p>Função: Game Designer.</p>
+                <img src="LTS.webp" alt="Work in Progress">
+                <div class="links">
+                    <a href="#">OSD</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
